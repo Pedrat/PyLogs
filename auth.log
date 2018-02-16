@@ -1,0 +1,932 @@
+Nov 28 17:29:53 axel systemd-logind[617]: New seat seat0.
+Nov 28 17:29:53 axel systemd-logind[617]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 28 17:29:53 axel systemd-logind[617]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 28 17:29:53 axel systemd-logind[617]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 28 17:36:02 axel login[754]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Nov 28 17:36:02 axel systemd-logind[617]: New session 1 of user axel.
+Nov 28 17:36:02 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Nov 28 18:17:01 axel CRON[1039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 18:17:01 axel CRON[1039]: pam_unix(cron:session): session closed for user root
+Nov 28 18:33:55 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 28 18:33:55 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 18:34:00 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 19:17:01 axel CRON[1280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 19:17:01 axel CRON[1280]: pam_unix(cron:session): session closed for user root
+Nov 28 20:17:01 axel CRON[1290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 20:17:01 axel CRON[1290]: pam_unix(cron:session): session closed for user root
+Nov 28 21:17:01 axel CRON[1301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 21:17:01 axel CRON[1301]: pam_unix(cron:session): session closed for user root
+Nov 28 21:29:04 axel sudo: pam_unix(sudo:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=axel
+Nov 28 21:29:09 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install dnsmasq
+Nov 28 21:29:09 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:29:17 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:43:40 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install bind bind-utils
+Nov 28 21:43:40 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:43:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:46:22 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 28 21:46:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:46:28 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:48:39 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install yum
+Nov 28 21:48:39 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:49:04 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:49:14 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/yum install bind bind-utils
+Nov 28 21:49:14 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:49:15 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:49:31 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/yum update
+Nov 28 21:49:31 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:49:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:49:56 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install yum-utils
+Nov 28 21:49:56 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:50:02 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:50:11 axel su[3214]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+Nov 28 21:50:13 axel su[3214]: pam_authenticate: Authentication failure
+Nov 28 21:50:13 axel su[3214]: FAILED su for root by axel
+Nov 28 21:50:13 axel su[3214]: - /dev/tty1 axel:root
+Nov 28 21:50:17 axel su[3215]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+Nov 28 21:50:18 axel su[3215]: pam_authenticate: Authentication failure
+Nov 28 21:50:18 axel su[3215]: FAILED su for root by axel
+Nov 28 21:50:18 axel su[3215]: - /dev/tty1 axel:root
+Nov 28 21:50:26 axel su[3216]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+Nov 28 21:50:28 axel su[3216]: pam_authenticate: Authentication failure
+Nov 28 21:50:28 axel su[3216]: FAILED su for root by axel
+Nov 28 21:50:28 axel su[3216]: - /dev/tty1 axel:root
+Nov 28 21:50:32 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/yum update
+Nov 28 21:50:32 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:50:32 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:55:00 axel systemd-logind[617]: System is powering down.
+Dec  1 10:07:34 axel systemd-logind[505]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  1 10:07:34 axel systemd-logind[505]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  1 10:07:34 axel systemd-logind[505]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  1 10:07:34 axel systemd-logind[505]: New seat seat0.
+Dec  1 10:07:34 axel systemd-logind[505]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  1 10:17:01 axel CRON[1272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  1 10:17:01 axel CRON[1272]: pam_unix(cron:session): session closed for user root
+Dec  1 11:09:25 axel login[787]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  1 11:09:25 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  1 11:09:25 axel systemd-logind[505]: New session 2 of user axel.
+Dec  1 11:12:32 axel su[1445]: Successful su for axel by axel
+Dec  1 11:12:32 axel su[1445]: + /dev/tty1 axel:axel
+Dec  1 11:12:32 axel su[1445]: pam_unix(su:session): session opened for user axel by axel(uid=1000)
+Dec  1 11:12:32 axel su[1445]: pam_systemd(su:session): Cannot create session: Already running in a session
+Dec  1 11:15:23 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec  1 11:15:23 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:17:01 axel CRON[1467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  1 11:17:01 axel CRON[1467]: pam_unix(cron:session): session closed for user root
+Dec  1 11:20:28 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:22:41 axel polkitd(authority=local): Registered Authentication Agent for unix-process:1475:451578 (system bus name :1.10 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec  1 11:22:50 axel polkitd(authority=local): Operator of unix-process:1475:451578 successfully authenticated as unix-user:axel to gain TEMPORARY authorization for action org.freedesktop.hostname1.set-static-hostname for system-bus-name::1.11 [hostnamectl set-hostname axel.atec.lopes] (owned by unix-user:axel)
+Dec  1 11:22:50 axel polkitd(authority=local): Unregistered Authentication Agent for unix-process:1475:451578 (system bus name :1.10, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec  1 11:31:00 axel sudo:     axel : TTY=tty1 ; PWD=/etc ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Dec  1 11:31:00 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:31:01 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:31:08 axel sudo:     axel : TTY=tty1 ; PWD=/etc ; USER=root ; COMMAND=/bin/nano /etc/network/
+Dec  1 11:31:08 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:31:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:31:44 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 11:31:44 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:31:51 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:31:53 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 11:31:53 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:32:07 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:32:09 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 11:32:09 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:32:48 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:33:00 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/usr/bin/apt-get install network-manager
+Dec  1 11:33:00 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:33:14 axel groupadd[1993]: group added to /etc/group: name=netdev, GID=116
+Dec  1 11:33:14 axel groupadd[1993]: group added to /etc/gshadow: name=netdev
+Dec  1 11:33:14 axel groupadd[1993]: new group: name=netdev, GID=116
+Dec  1 11:33:21 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:34:22 axel systemd-logind[505]: System is rebooting.
+Dec  1 11:34:39 axel systemd-logind[626]: New seat seat0.
+Dec  1 11:34:39 axel systemd-logind[626]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  1 11:34:39 axel systemd-logind[626]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  1 11:34:39 axel systemd-logind[626]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  1 11:36:45 axel login[939]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  1 11:36:45 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  1 11:36:45 axel systemd-logind[626]: New session 1 of user axel.
+Dec  1 11:36:52 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get update
+Dec  1 11:36:52 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:36:55 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:39:18 axel sudo:     axel : TTY=tty1 ; PWD=/media/cdrom ; USER=root ; COMMAND=/sbin/fdisk -l
+Dec  1 11:39:18 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:39:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:39:47 axel systemd-logind[626]: System is powering down.
+Dec  1 11:40:54 axel systemd-logind[476]: New seat seat0.
+Dec  1 11:40:54 axel systemd-logind[476]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  1 11:40:54 axel systemd-logind[476]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  1 11:40:54 axel systemd-logind[476]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  1 11:41:48 axel login[825]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  1 11:41:48 axel systemd-logind[476]: New session 1 of user axel.
+Dec  1 11:41:48 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  1 11:42:06 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Dec  1 11:42:06 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:44:47 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:47:52 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt install ifupdown
+Dec  1 11:47:52 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:48:03 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:48:07 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown 3np0s3
+Dec  1 11:48:07 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:48:07 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:48:12 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 11:48:12 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:48:12 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:48:30 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/whereis enp0s3
+Dec  1 11:48:30 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:48:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:48:36 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/whereis int
+Dec  1 11:48:36 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:48:36 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:48:38 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/whereis interface
+Dec  1 11:48:38 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:48:38 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:48:39 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/whereis interfaces
+Dec  1 11:48:39 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:48:39 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:51:28 axel systemd-logind[476]: System is rebooting.
+Dec  1 11:51:43 axel systemd-logind[592]: New seat seat0.
+Dec  1 11:51:43 axel systemd-logind[592]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  1 11:51:43 axel systemd-logind[592]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  1 11:51:43 axel systemd-logind[592]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  1 11:52:07 axel login[898]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  1 11:52:07 axel systemd-logind[592]: New session 1 of user axel.
+Dec  1 11:52:07 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  1 11:53:11 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown lo
+Dec  1 11:53:11 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:53:11 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:53:54 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 11:53:54 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/home/axel ; USER=root ;
+Dec  1 11:53:54 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown lo
+Dec  1 11:53:54 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:55:23 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 11:55:23 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/home/axel ; USER=root ;
+Dec  1 11:55:23 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces.d/
+Dec  1 11:55:23 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:55:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:56:19 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 11:56:19 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/home/axel ; USER=root ;
+Dec  1 11:57:22 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 11:57:22 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/home/axel ; USER=root ;
+Dec  1 11:57:22 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup lo
+Dec  1 11:57:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:57:22 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:59:06 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 11:59:06 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:59:06 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:59:14 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 11:59:14 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:59:14 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:59:22 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 11:59:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:59:22 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 11:59:40 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 11:59:40 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 11:59:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:05:04 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 12:05:04 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:05:35 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:05:45 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:05:45 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:05:45 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:05:55 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 12:05:55 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:06:07 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:06:17 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:06:17 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:06:17 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:06:25 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 12:06:25 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:06:25 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:06:46 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 12:06:46 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:09:04 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:09:20 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifconfig enp0s3 10.0.2.15
+Dec  1 12:09:20 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:09:20 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:09:26 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0
+Dec  1 12:09:26 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:09:26 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:09:35 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/usr/bin/apt-get update
+Dec  1 12:09:35 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:09:39 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:10:16 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 12:10:16 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:10:23 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:10:39 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:10:39 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:10:39 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:10:44 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 12:10:44 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:10:44 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:10:47 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:10:47 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:10:47 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:10:52 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 12:10:52 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:10:52 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:11:52 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 12:11:52 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/etc/network ; USER=root ;
+Dec  1 12:11:52 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0
+Dec  1 12:11:52 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:11:52 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:13:15 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 12:13:15 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/etc/network ; USER=root ;
+Dec  1 12:13:15 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 12:13:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:13:27 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:13:59 axel polkitd(authority=local): Registered Authentication Agent for unix-process:1649:134344 (system bus name :1.13 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec  1 12:14:02 axel polkitd(authority=local): Operator of unix-process:1649:134344 successfully authenticated as unix-user:axel to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.14 [systemctl stop dnsmasq] (owned by unix-user:axel)
+Dec  1 12:14:02 axel polkitd(authority=local): Unregistered Authentication Agent for unix-process:1649:134344 (system bus name :1.13, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec  1 12:17:01 axel CRON[1678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  1 12:17:01 axel CRON[1678]: pam_unix(cron:session): session closed for user root
+Dec  1 12:22:05 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 12:22:05 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/etc/network ; USER=root ;
+Dec  1 12:22:05 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec  1 12:22:05 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:23:28 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 12:23:28 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/etc/network ; USER=root ;
+Dec  1 12:23:28 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Dec  1 12:23:28 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:24:39 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:25:23 axel sudo:     axel : unable to resolve host axel.atec.lopes
+Dec  1 12:25:23 axel sudo:     axel : problem with defaults entries ; TTY=tty1 ; PWD=/etc/network ; USER=root ;
+Dec  1 12:25:23 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:25:23 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:25:23 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:25:38 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 12:25:38 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:25:38 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:29:24 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec  1 12:29:24 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:35:27 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:35:48 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Dec  1 12:35:48 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:36:39 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:37:17 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Dec  1 12:37:17 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:37:29 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:37:45 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:37:45 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:37:45 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:37:51 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:37:51 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:37:51 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:37:55 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 12:37:55 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:37:55 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:38:56 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec  1 12:38:56 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:40:14 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:43:05 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 12:43:05 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:43:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:43:22 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 12:43:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:43:23 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:43:29 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 12:43:29 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:43:29 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:44:03 axel polkitd(authority=local): Registered Authentication Agent for unix-process:2028:314732 (system bus name :1.23 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec  1 12:44:05 axel polkitd(authority=local): Operator of unix-process:2028:314732 successfully authenticated as unix-user:axel to gain TEMPORARY authorization for action org.freedesktop.systemd1.reload-daemon for system-bus-name::1.24 [systemctl daemon-reload] (owned by unix-user:axel)
+Dec  1 12:44:05 axel polkitd(authority=local): Unregistered Authentication Agent for unix-process:2028:314732 (system bus name :1.23, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec  1 12:44:10 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/systemctl disable dnsmasq
+Dec  1 12:44:10 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:44:11 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:44:17 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/systemctl enable dnsmasq
+Dec  1 12:44:17 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:44:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:44:21 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/systemctl start dnsmasq
+Dec  1 12:44:21 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 12:44:22 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 12:46:18 axel systemd-logind[592]: System is powering down.
+Dec  1 20:22:05 axel systemd-logind[483]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  1 20:22:05 axel systemd-logind[483]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  1 20:22:05 axel systemd-logind[483]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  1 20:22:05 axel systemd-logind[483]: New seat seat0.
+Dec  1 20:41:43 axel login[893]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  1 20:41:43 axel systemd-logind[483]: New session 1 of user axel.
+Dec  1 20:41:43 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  1 20:42:36 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Dec  1 20:42:36 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:43:56 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:44:42 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt install apache2 vsftpd openssh
+Dec  1 20:44:42 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:44:43 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:44:46 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt install apache2 vsftpd openssh2
+Dec  1 20:44:46 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:44:46 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:44:49 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt install apache2 vsftpd
+Dec  1 20:44:49 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:45:04 axel groupadd[1307]: group added to /etc/group: name=ssl-cert, GID=117
+Dec  1 20:45:04 axel groupadd[1307]: group added to /etc/gshadow: name=ssl-cert
+Dec  1 20:45:04 axel groupadd[1307]: new group: name=ssl-cert, GID=117
+Dec  1 20:45:06 axel groupadd[1864]: group added to /etc/group: name=ftp, GID=118
+Dec  1 20:45:06 axel groupadd[1864]: group added to /etc/gshadow: name=ftp
+Dec  1 20:45:06 axel groupadd[1864]: new group: name=ftp, GID=118
+Dec  1 20:45:06 axel useradd[1868]: new user: name=ftp, UID=111, GID=118, home=/srv/ftp, shell=/bin/false
+Dec  1 20:45:07 axel usermod[1873]: change user 'ftp' password
+Dec  1 20:45:07 axel chage[1878]: changed password expiry for ftp
+Dec  1 20:45:07 axel chfn[1881]: changed user 'ftp' information
+Dec  1 20:45:16 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:45:23 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Dec  1 20:45:23 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:45:32 axel useradd[3112]: new user: name=sshd, UID=112, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Dec  1 20:45:32 axel usermod[3117]: change user 'sshd' password
+Dec  1 20:45:32 axel chage[3122]: changed password expiry for sshd
+Dec  1 20:45:33 axel sshd[3184]: Server listening on 0.0.0.0 port 22.
+Dec  1 20:45:33 axel sshd[3184]: Server listening on :: port 22.
+Dec  1 20:45:37 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:45:55 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 20:45:55 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:45:55 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:46:09 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl stop dnsmasq
+Dec  1 20:46:09 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:46:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:46:33 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 20:46:33 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:46:33 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:46:33 axel sshd[3184]: Received SIGHUP; restarting.
+Dec  1 20:46:33 axel sshd[3184]: Server listening on 0.0.0.0 port 22.
+Dec  1 20:46:33 axel sshd[3184]: Server listening on :: port 22.
+Dec  1 20:46:45 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 20:46:45 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:46:45 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:46:47 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 20:46:47 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:46:47 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:46:47 axel sshd[3184]: Received SIGHUP; restarting.
+Dec  1 20:46:47 axel sshd[3184]: Server listening on 0.0.0.0 port 22.
+Dec  1 20:46:47 axel sshd[3184]: Server listening on :: port 22.
+Dec  1 20:47:21 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl start dnsmasq
+Dec  1 20:47:21 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:47:21 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:47:25 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl status dnsmasq
+Dec  1 20:47:25 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:47:37 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:48:25 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl status bind9
+Dec  1 20:48:25 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:48:25 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:48:51 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 20:48:51 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:49:11 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:49:17 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 20:49:17 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:49:17 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:49:21 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 20:49:21 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:49:21 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 20:49:21 axel sshd[3184]: Received SIGHUP; restarting.
+Dec  1 20:49:21 axel sshd[3184]: Server listening on 0.0.0.0 port 22.
+Dec  1 20:49:21 axel sshd[3184]: Server listening on :: port 22.
+Dec  1 20:49:30 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/usr/bin/apt install bind9
+Dec  1 20:49:30 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 20:49:36 axel groupadd[4177]: group added to /etc/group: name=bind, GID=119
+Dec  1 20:49:36 axel groupadd[4177]: group added to /etc/gshadow: name=bind
+Dec  1 20:49:36 axel groupadd[4177]: new group: name=bind, GID=119
+Dec  1 20:49:36 axel useradd[4183]: new user: name=bind, UID=113, GID=119, home=/var/cache/bind, shell=/bin/false
+Dec  1 20:49:36 axel usermod[4188]: change user 'bind' password
+Dec  1 20:49:36 axel chage[4193]: changed password expiry for bind
+Dec  1 20:49:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 21:03:14 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/nano interfaces
+Dec  1 21:03:14 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 21:03:25 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 21:03:30 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 21:03:30 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 21:03:30 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 21:03:34 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  1 21:03:34 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 21:03:34 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 21:03:40 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  1 21:03:40 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 21:03:40 axel sshd[3184]: Received SIGHUP; restarting.
+Dec  1 21:03:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 21:03:40 axel sshd[3184]: Server listening on 0.0.0.0 port 22.
+Dec  1 21:03:40 axel sshd[3184]: Server listening on :: port 22.
+Dec  1 21:03:52 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec  1 21:03:52 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 21:03:52 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 21:03:58 axel sudo:     axel : TTY=tty1 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/systemctl status dnsmasq
+Dec  1 21:03:58 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  1 21:04:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  1 21:17:01 axel CRON[4459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  1 21:17:01 axel CRON[4459]: pam_unix(cron:session): session closed for user root
+Dec  2 08:29:38 axel systemd-logind[574]: New seat seat0.
+Dec  2 08:29:38 axel systemd-logind[574]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  2 08:29:38 axel systemd-logind[574]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  2 08:29:38 axel systemd-logind[574]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  2 08:30:17 axel sshd[1134]: Server listening on 0.0.0.0 port 22.
+Dec  2 08:30:17 axel sshd[1134]: Server listening on :: port 22.
+Dec  2 08:30:52 axel login[1213]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  2 08:30:52 axel systemd-logind[574]: New session 1 of user axel.
+Dec  2 08:30:52 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  2 08:31:17 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl status bind9
+Dec  2 08:31:17 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 08:35:01 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 08:35:10 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl stop bind9
+Dec  2 08:35:10 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 08:35:10 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 08:44:43 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano named.conf
+Dec  2 08:44:43 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 08:44:46 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 08:45:13 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano named.conf.options
+Dec  2 08:45:13 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:03:10 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:07:05 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano named.conf.local
+Dec  2 09:07:05 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:07:13 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:09:59 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano named.conf.local
+Dec  2 09:09:59 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:11:59 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:12:32 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/cp /etc/bind/db.local /etc/bind/db.atec.lopes
+Dec  2 09:12:32 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:12:32 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:15:15 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano db.atec.lopes
+Dec  2 09:15:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:17:01 axel CRON[1620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  2 09:17:01 axel CRON[1620]: pam_unix(cron:session): session closed for user root
+Dec  2 09:19:45 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:19:58 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/systemctl start bind9
+Dec  2 09:19:58 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:19:58 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:20:03 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/systemctl status bind9
+Dec  2 09:20:03 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:20:11 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:24:59 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano named.conf.local
+Dec  2 09:24:59 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:29:08 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:29:20 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/cp db.127 db.192
+Dec  2 09:29:20 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:29:20 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:29:30 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano db.192
+Dec  2 09:29:30 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:32:05 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:32:31 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/systemctl restart bind9
+Dec  2 09:32:31 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:32:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:34:04 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Dec  2 09:34:04 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:34:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:34:18 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  2 09:34:18 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:34:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:34:22 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  2 09:34:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:34:23 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:34:24 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  2 09:34:24 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:34:24 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:34:24 axel sshd[1134]: Received SIGHUP; restarting.
+Dec  2 09:34:24 axel sshd[1134]: Server listening on 0.0.0.0 port 22.
+Dec  2 09:34:24 axel sshd[1134]: Server listening on :: port 22.
+Dec  2 09:35:20 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/systemctl restart bind9
+Dec  2 09:35:20 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:35:20 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:37:49 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Dec  2 09:37:49 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:37:53 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:39:39 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec  2 09:39:39 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:41:16 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:41:32 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/systemctl status dnsmasq
+Dec  2 09:41:32 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:41:36 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:41:41 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec  2 09:41:41 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:41:41 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:41:46 axel sudo:     axel : TTY=tty1 ; PWD=/etc/bind ; USER=root ; COMMAND=/bin/systemctl restart bind9
+Dec  2 09:41:46 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  2 09:41:46 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 09:44:37 axel systemd-logind[574]: System is powering down.
+Dec  2 09:44:38 axel systemd: pam_unix(systemd-user:session): session closed for user axel
+Dec  7 20:19:22 axel systemd-logind[520]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  7 20:19:22 axel systemd-logind[520]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  7 20:19:22 axel systemd-logind[520]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  7 20:19:22 axel systemd-logind[520]: New seat seat0.
+Dec  7 20:19:33 axel sshd[905]: Server listening on 0.0.0.0 port 22.
+Dec  7 20:19:33 axel sshd[905]: Server listening on :: port 22.
+Dec  7 20:33:35 axel login[982]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  7 20:33:35 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  7 20:33:35 axel systemd-logind[520]: New session 1 of user axel.
+Dec  7 20:33:45 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install isc-dhcp-server
+Dec  7 20:33:45 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  7 20:33:54 axel groupadd[2059]: group added to /etc/group: name=dhcpd, GID=120
+Dec  7 20:33:54 axel groupadd[2059]: group added to /etc/gshadow: name=dhcpd
+Dec  7 20:33:54 axel groupadd[2059]: new group: name=dhcpd, GID=120
+Dec  7 20:33:54 axel useradd[2063]: new user: name=dhcpd, UID=114, GID=120, home=/var/run, shell=/bin/false
+Dec  7 20:33:54 axel usermod[2068]: change user 'dhcpd' password
+Dec  7 20:33:54 axel chage[2073]: changed password expiry for dhcpd
+Dec  7 20:33:59 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  7 20:37:40 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  7 20:37:40 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  7 20:37:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  7 20:37:44 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  7 20:37:44 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  7 20:37:44 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  7 20:37:44 axel sshd[905]: Received SIGHUP; restarting.
+Dec  7 20:37:44 axel sshd[905]: Server listening on 0.0.0.0 port 22.
+Dec  7 20:37:44 axel sshd[905]: Server listening on :: port 22.
+Dec  7 20:38:24 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dhcp/dhcpd.conf
+Dec  7 20:38:24 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  7 21:16:25 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  7 21:16:31 axel systemd-logind[520]: System is powering down.
+Dec  7 21:16:31 axel sshd[905]: Received signal 15; terminating.
+Dec  8 09:58:23 axel systemd-logind[571]: New seat seat0.
+Dec  8 09:58:23 axel systemd-logind[571]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  8 09:58:23 axel systemd-logind[571]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  8 09:58:23 axel systemd-logind[571]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  8 09:58:32 axel sshd[1087]: Server listening on 0.0.0.0 port 22.
+Dec  8 09:58:32 axel sshd[1087]: Server listening on :: port 22.
+Dec  8 09:58:59 axel login[1177]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  8 09:58:59 axel systemd-logind[571]: New session 1 of user axel.
+Dec  8 09:58:59 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  8 10:17:01 axel CRON[1502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  8 10:17:01 axel CRON[1502]: pam_unix(cron:session): session closed for user root
+Dec  8 10:22:08 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dhcp/dhcpd.conf
+Dec  8 10:22:08 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:28:12 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:29:06 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart isc-dhcp-server
+Dec  8 10:29:06 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:29:06 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:29:12 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl status isc-dhcp-server
+Dec  8 10:29:12 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:29:19 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:29:30 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  8 10:29:30 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:29:30 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:29:34 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  8 10:29:34 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:29:34 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:29:34 axel sshd[1087]: Received SIGHUP; restarting.
+Dec  8 10:29:34 axel sshd[1087]: Server listening on 0.0.0.0 port 22.
+Dec  8 10:29:34 axel sshd[1087]: Server listening on :: port 22.
+Dec  8 10:32:17 axel systemd-logind[571]: System is rebooting.
+Dec  8 10:32:32 axel systemd-logind[639]: New seat seat0.
+Dec  8 10:32:32 axel systemd-logind[639]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  8 10:32:32 axel systemd-logind[639]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec  8 10:32:32 axel systemd-logind[639]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec  8 10:34:28 axel sshd[1044]: Server listening on 0.0.0.0 port 22.
+Dec  8 10:34:28 axel sshd[1044]: Server listening on :: port 22.
+Dec  8 10:34:42 axel login[1110]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec  8 10:34:42 axel systemd-logind[639]: New session 1 of user axel.
+Dec  8 10:34:42 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec  8 10:34:52 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec  8 10:34:52 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:34:52 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:34:55 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec  8 10:34:55 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:34:55 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:34:55 axel sshd[1044]: Received SIGHUP; restarting.
+Dec  8 10:34:55 axel sshd[1044]: Server listening on 0.0.0.0 port 22.
+Dec  8 10:34:55 axel sshd[1044]: Server listening on :: port 22.
+Dec  8 10:35:14 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq bind9 isc-dhcp-server
+Dec  8 10:35:14 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:35:14 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:35:24 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl status dnsmasq bind9 isc-dhcp-server
+Dec  8 10:35:24 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec  8 10:35:33 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec  8 10:36:57 axel systemd-logind[639]: System is powering down.
+Dec 13 20:04:15 axel systemd-logind[598]: New seat seat0.
+Dec 13 20:04:15 axel systemd-logind[598]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 13 20:04:15 axel systemd-logind[598]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 13 20:04:15 axel systemd-logind[598]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 13 20:06:12 axel sshd[1020]: Server listening on 0.0.0.0 port 22.
+Dec 13 20:06:12 axel sshd[1020]: Server listening on :: port 22.
+Dec 13 20:07:13 axel login[1085]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec 13 20:07:14 axel systemd-logind[598]: New session 1 of user axel.
+Dec 13 20:07:14 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec 13 20:08:15 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec 13 20:08:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:08:15 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:08:18 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec 13 20:08:18 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:08:19 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:08:19 axel sshd[1020]: Received SIGHUP; restarting.
+Dec 13 20:08:19 axel sshd[1020]: Server listening on 0.0.0.0 port 22.
+Dec 13 20:08:19 axel sshd[1020]: Server listening on :: port 22.
+Dec 13 20:08:35 axel systemd-logind[598]: System is rebooting.
+Dec 13 20:08:56 axel systemd-logind[478]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 13 20:08:56 axel systemd-logind[478]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 13 20:08:56 axel systemd-logind[478]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 13 20:08:56 axel systemd-logind[478]: New seat seat0.
+Dec 13 20:09:41 axel sshd[958]: Server listening on 0.0.0.0 port 22.
+Dec 13 20:09:41 axel sshd[958]: Server listening on :: port 22.
+Dec 13 20:12:05 axel login[1015]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec 13 20:12:05 axel systemd-logind[478]: New session 1 of user axel.
+Dec 13 20:12:05 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec 13 20:12:24 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec 13 20:12:24 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:12:24 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:12:27 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec 13 20:12:27 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:12:28 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:12:28 axel sshd[958]: Received SIGHUP; restarting.
+Dec 13 20:12:28 axel sshd[958]: Server listening on 0.0.0.0 port 22.
+Dec 13 20:12:28 axel sshd[958]: Server listening on :: port 22.
+Dec 13 20:13:18 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/db.atec.lopes
+Dec 13 20:13:18 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:14:35 axel login[1335]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec 13 20:14:35 axel systemd-logind[478]: New session 3 of user axel.
+Dec 13 20:14:53 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Dec 13 20:14:53 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:15:14 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:16:46 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec 13 20:16:46 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:16:46 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:17:01 axel CRON[1445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 13 20:17:01 axel CRON[1445]: pam_unix(cron:session): session closed for user root
+Dec 13 20:17:09 axel systemd-logind[478]: System is rebooting.
+Dec 13 20:17:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:17:09 axel sshd[958]: Received signal 15; terminating.
+Dec 13 20:17:20 axel systemd-logind[473]: New seat seat0.
+Dec 13 20:17:20 axel systemd-logind[473]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 13 20:17:20 axel systemd-logind[473]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 13 20:17:20 axel systemd-logind[473]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 13 20:18:04 axel sshd[1010]: Server listening on 0.0.0.0 port 22.
+Dec 13 20:18:04 axel sshd[1010]: Server listening on :: port 22.
+Dec 13 20:18:50 axel login[1091]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec 13 20:18:50 axel systemd-logind[473]: New session 1 of user axel.
+Dec 13 20:18:50 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec 13 20:19:05 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Dec 13 20:19:05 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:19:33 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:19:42 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec 13 20:19:42 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:19:42 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:20:03 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec 13 20:20:03 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:20:03 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:20:07 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec 13 20:20:07 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:20:07 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:20:07 axel sshd[1010]: Received SIGHUP; restarting.
+Dec 13 20:20:07 axel sshd[1010]: Server listening on 0.0.0.0 port 22.
+Dec 13 20:20:07 axel sshd[1010]: Server listening on :: port 22.
+Dec 13 20:20:10 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec 13 20:20:10 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:20:10 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:29:01 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/db.atec.lopes
+Dec 13 20:29:01 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:29:06 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:29:10 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/db.192
+Dec 13 20:29:10 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:29:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:33:00 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec 13 20:33:00 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:33:00 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:33:06 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart bind9
+Dec 13 20:33:06 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:33:06 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:34:11 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Dec 13 20:34:11 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:34:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:34:37 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec 13 20:34:37 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:35:23 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:35:39 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/touch /etc/dnsmasq.resolv
+Dec 13 20:35:39 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:35:39 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:37:10 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.resolv
+Dec 13 20:37:10 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:37:36 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:41:46 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec 13 20:41:46 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:42:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:42:18 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec 13 20:42:18 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:42:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:42:22 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl status dnsmasq
+Dec 13 20:42:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:42:47 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:42:49 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec 13 20:42:49 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:43:00 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:43:08 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec 13 20:43:08 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:43:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:43:26 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Dec 13 20:43:26 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:44:45 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:44:57 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.resolv
+Dec 13 20:44:57 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:45:05 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 20:45:39 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/sbin/ufw disable
+Dec 13 20:45:39 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 20:45:39 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:17:01 axel CRON[1902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 13 21:17:01 axel CRON[1902]: pam_unix(cron:session): session closed for user root
+Dec 13 21:28:03 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/db.atec.lopes
+Dec 13 21:28:03 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:29:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:29:28 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/db.192
+Dec 13 21:29:28 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:29:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:31:50 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec 13 21:31:50 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:31:50 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:31:53 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec 13 21:31:53 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:31:53 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:31:53 axel sshd[1010]: Received SIGHUP; restarting.
+Dec 13 21:31:53 axel sshd[1010]: Server listening on 0.0.0.0 port 22.
+Dec 13 21:31:53 axel sshd[1010]: Server listening on :: port 22.
+Dec 13 21:32:26 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq bind9
+Dec 13 21:32:26 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:32:26 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:33:13 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Dec 13 21:33:13 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:33:33 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:34:26 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.resolv
+Dec 13 21:34:26 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:34:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:34:45 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/dnsmasq.conf
+Dec 13 21:34:45 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:36:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:36:54 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/db.atec.lopes
+Dec 13 21:36:54 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:37:13 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:41:05 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install apache2 openssh-server vsftpd
+Dec 13 21:41:05 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:41:07 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:41:20 axel systemd-logind[473]: System is powering down.
+Dec 13 21:41:20 axel systemd: pam_unix(systemd-user:session): session closed for user axel
+Dec 13 21:45:01 axel systemd-logind[468]: New seat seat0.
+Dec 13 21:45:01 axel systemd-logind[468]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 13 21:45:01 axel systemd-logind[468]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 13 21:45:01 axel systemd-logind[468]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 13 21:45:11 axel sshd[963]: Server listening on 0.0.0.0 port 22.
+Dec 13 21:45:11 axel sshd[963]: Server listening on :: port 22.
+Dec 13 21:45:39 axel login[1033]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec 13 21:45:39 axel systemd-logind[468]: New session 1 of user axel.
+Dec 13 21:45:39 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Dec 13 21:51:29 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemd --help
+Dec 13 21:51:29 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:51:38 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:52:48 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec 13 21:52:48 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:52:49 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:52:51 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec 13 21:52:51 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:52:51 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:52:55 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec 13 21:52:55 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:52:55 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:52:55 axel sshd[963]: Received SIGHUP; restarting.
+Dec 13 21:52:55 axel sshd[963]: Server listening on 0.0.0.0 port 22.
+Dec 13 21:52:55 axel sshd[963]: Server listening on :: port 22.
+Dec 13 21:54:04 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/sbin/ufw disable
+Dec 13 21:54:04 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:54:05 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:56:34 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/named.conf
+Dec 13 21:56:34 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:56:38 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:56:44 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/named.conf.options
+Dec 13 21:56:44 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:58:37 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:58:44 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart bin9
+Dec 13 21:58:44 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:58:44 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:58:46 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart bind9
+Dec 13 21:58:46 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:58:46 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:59:15 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart dnsmasq
+Dec 13 21:59:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:59:15 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 21:59:25 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/bind/named.conf.options
+Dec 13 21:59:25 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 21:59:32 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:00:51 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl stop systemd-resolved
+Dec 13 22:00:51 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:00:51 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:01:49 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Dec 13 22:01:49 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:02:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:02:14 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Dec 13 22:02:14 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:02:14 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:02:19 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Dec 13 22:02:19 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:02:19 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:02:19 axel sshd[963]: Received SIGHUP; restarting.
+Dec 13 22:02:19 axel sshd[963]: Server listening on 0.0.0.0 port 22.
+Dec 13 22:02:19 axel sshd[963]: Server listening on :: port 22.
+Dec 13 22:03:56 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl start systemd-resolved
+Dec 13 22:03:56 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:03:56 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:04:49 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/NetworkManager/dnsmasq.d/
+Dec 13 22:04:49 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:04:52 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:05:01 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/ls /etc/NetworkManager/dnsmasq.d/
+Dec 13 22:05:01 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:05:01 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:05:05 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/ls /etc/NetworkManager/
+Dec 13 22:05:05 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:05:05 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:05:15 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/NetworkManager/system-connections/
+Dec 13 22:05:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:05:18 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:05:24 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/ls /etc/NetworkManager/system-connections/
+Dec 13 22:05:24 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:05:24 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:05:36 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/NetworkManager/NetworkManager.conf
+Dec 13 22:05:36 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:06:49 axel login[1916]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Dec 13 22:06:49 axel systemd-logind[468]: New session 3 of user axel.
+Dec 13 22:07:02 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl disable systemd-resolved
+Dec 13 22:07:02 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:07:02 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:07:09 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl stop systemd-resolved
+Dec 13 22:07:09 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:07:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:07:26 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl network-manager restart
+Dec 13 22:07:26 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:07:26 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:07:38 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart network-manager
+Dec 13 22:07:38 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:07:38 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:08:09 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:08:23 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart network-manager
+Dec 13 22:08:23 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:08:23 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:08:56 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/NetworkManager/NetworkManager.conf
+Dec 13 22:08:56 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:09:08 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:09:15 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart network-manager
+Dec 13 22:09:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:09:15 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:09:24 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl start systemd-resolved
+Dec 13 22:09:24 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:09:24 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:09:31 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl enable systemd-resolved
+Dec 13 22:09:31 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:09:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:16:58 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/apache2/conf-enabled/security.conf
+Dec 13 22:16:58 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:17:01 axel CRON[2277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 13 22:17:01 axel CRON[2277]: pam_unix(cron:session): session closed for user root
+Dec 13 22:17:06 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:17:29 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/apache2/mods-enabled/dir.conf
+Dec 13 22:17:29 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:18:15 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:18:22 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/apache2/apache2.conf
+Dec 13 22:18:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:22:01 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:22:11 axel sudo:     axel : TTY=tty2 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Dec 13 22:22:11 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:24:03 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:24:16 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Dec 13 22:24:16 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:24:16 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:24:48 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /var/www/html/index.html
+Dec 13 22:24:48 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:24:54 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:25:19 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/cp /var/www/html/index.html /var/www/html/axel-site.html
+Dec 13 22:25:19 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Dec 13 22:25:19 axel sudo: pam_unix(sudo:session): session closed for user root
+Dec 13 22:27:07 axel systemd-logind[468]: System is powering down.
+Dec 13 22:27:07 axel sshd[963]: Received signal 15; terminating.
+Jan 10 11:05:50 axel systemd-logind[654]: New seat seat0.
+Jan 10 11:05:50 axel systemd-logind[654]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 10 11:05:50 axel systemd-logind[654]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 10 11:05:50 axel systemd-logind[654]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 10 11:07:46 axel sshd[1095]: Server listening on 0.0.0.0 port 22.
+Jan 10 11:07:46 axel sshd[1095]: Server listening on :: port 22.
+Jan 10 11:17:02 axel CRON[1461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 11:17:02 axel CRON[1461]: pam_unix(cron:session): session closed for user root
+Jan 10 11:19:35 axel login[1184]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Jan 10 11:19:35 axel systemd-logind[654]: New session 2 of user axel.
+Jan 10 11:19:35 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Jan 10 11:20:26 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Jan 10 11:20:26 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:27 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:30 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Jan 10 11:20:30 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:30 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:30 axel sshd[1095]: Received SIGHUP; restarting.
+Jan 10 11:20:30 axel sshd[1095]: Server listening on 0.0.0.0 port 22.
+Jan 10 11:20:30 axel sshd[1095]: Server listening on :: port 22.
+Jan 10 11:20:50 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Jan 10 11:20:50 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:50 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:57 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Jan 10 11:20:57 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:57 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:57 axel sshd[1095]: Received SIGHUP; restarting.
+Jan 10 11:20:57 axel sshd[1095]: Server listening on 0.0.0.0 port 22.
+Jan 10 11:20:57 axel sshd[1095]: Server listening on :: port 22.
+Jan 10 11:21:15 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /var/log/auth.log
+Jan 10 11:21:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:23:57 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:24:18 axel sshd[1820]: Invalid user atec from 10.0.2.2 port 53197
+Jan 10 11:24:18 axel sshd[1820]: pam_unix(sshd:auth): check pass; user unknown
+Jan 10 11:24:18 axel sshd[1820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2
+Jan 10 11:24:20 axel sshd[1820]: Failed password for invalid user atec from 10.0.2.2 port 53197 ssh2
+Jan 10 11:24:24 axel sshd[1820]: pam_unix(sshd:auth): check pass; user unknown
+Jan 10 11:24:26 axel sshd[1820]: Failed password for invalid user atec from 10.0.2.2 port 53197 ssh2
+Jan 10 11:24:31 axel sshd[1820]: Connection closed by invalid user atec 10.0.2.2 port 53197 [preauth]
+Jan 10 11:24:31 axel sshd[1820]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2
+Jan 10 11:24:40 axel sshd[1826]: Accepted password for axel from 10.0.2.2 port 53204 ssh2
+Jan 10 11:24:40 axel sshd[1826]: pam_unix(sshd:session): session opened for user axel by (uid=0)
+Jan 10 11:24:40 axel systemd-logind[654]: New session 4 of user axel.
+Jan 10 11:24:40 axel sshd[1840]: Accepted password for axel from 10.0.2.2 port 53206 ssh2
+Jan 10 11:24:40 axel sshd[1840]: pam_unix(sshd:session): session opened for user axel by (uid=0)
+Jan 10 11:24:40 axel systemd-logind[654]: New session 5 of user axel.

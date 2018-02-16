@@ -1,0 +1,56 @@
+Nov 28 17:29:53 axel systemd-logind[617]: New seat seat0.
+Nov 28 17:29:53 axel systemd-logind[617]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 28 17:29:53 axel systemd-logind[617]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 28 17:29:53 axel systemd-logind[617]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 28 17:36:02 axel login[754]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Nov 28 17:36:02 axel systemd-logind[617]: New session 1 of user axel.
+Nov 28 17:36:02 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Nov 28 18:17:01 axel CRON[1039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 18:17:01 axel CRON[1039]: pam_unix(cron:session): session closed for user root
+Nov 28 18:33:55 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 28 18:33:55 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 18:34:00 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 19:17:01 axel CRON[1280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 19:17:01 axel CRON[1280]: pam_unix(cron:session): session closed for user root
+Nov 28 20:17:01 axel CRON[1290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 20:17:01 axel CRON[1290]: pam_unix(cron:session): session closed for user root
+Nov 28 21:17:01 axel CRON[1301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 28 21:17:01 axel CRON[1301]: pam_unix(cron:session): session closed for user root
+Nov 28 21:29:04 axel sudo: pam_unix(sudo:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=axel
+Nov 28 21:29:09 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install dnsmasq
+Nov 28 21:29:09 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:29:17 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:43:40 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install bind bind-utils
+Nov 28 21:43:40 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:43:40 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:46:22 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 28 21:46:22 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:46:28 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:48:39 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install yum
+Nov 28 21:48:39 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:49:04 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:49:14 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/yum install bind bind-utils
+Nov 28 21:49:14 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:49:15 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:49:31 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/yum update
+Nov 28 21:49:31 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:49:31 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:49:56 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/apt-get install yum-utils
+Nov 28 21:49:56 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:50:02 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:50:11 axel su[3214]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+Nov 28 21:50:13 axel su[3214]: pam_authenticate: Authentication failure
+Nov 28 21:50:13 axel su[3214]: FAILED su for root by axel
+Nov 28 21:50:13 axel su[3214]: - /dev/tty1 axel:root
+Nov 28 21:50:17 axel su[3215]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+Nov 28 21:50:18 axel su[3215]: pam_authenticate: Authentication failure
+Nov 28 21:50:18 axel su[3215]: FAILED su for root by axel
+Nov 28 21:50:18 axel su[3215]: - /dev/tty1 axel:root
+Nov 28 21:50:26 axel su[3216]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+Nov 28 21:50:28 axel su[3216]: pam_authenticate: Authentication failure
+Nov 28 21:50:28 axel su[3216]: FAILED su for root by axel
+Nov 28 21:50:28 axel su[3216]: - /dev/tty1 axel:root
+Nov 28 21:50:32 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/usr/bin/yum update
+Nov 28 21:50:32 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Nov 28 21:50:32 axel sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 21:55:00 axel systemd-logind[617]: System is powering down.

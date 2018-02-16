@@ -1,0 +1,46 @@
+Jan 10 11:05:50 axel systemd-logind[654]: New seat seat0.
+Jan 10 11:05:50 axel systemd-logind[654]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 10 11:05:50 axel systemd-logind[654]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 10 11:05:50 axel systemd-logind[654]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 10 11:07:46 axel sshd[1095]: Server listening on 0.0.0.0 port 22.
+Jan 10 11:07:46 axel sshd[1095]: Server listening on :: port 22.
+Jan 10 11:17:02 axel CRON[1461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 11:17:02 axel CRON[1461]: pam_unix(cron:session): session closed for user root
+Jan 10 11:19:35 axel login[1184]: pam_unix(login:session): session opened for user axel by LOGIN(uid=0)
+Jan 10 11:19:35 axel systemd-logind[654]: New session 2 of user axel.
+Jan 10 11:19:35 axel systemd: pam_unix(systemd-user:session): session opened for user axel by (uid=0)
+Jan 10 11:20:26 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Jan 10 11:20:26 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:27 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:30 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Jan 10 11:20:30 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:30 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:30 axel sshd[1095]: Received SIGHUP; restarting.
+Jan 10 11:20:30 axel sshd[1095]: Server listening on 0.0.0.0 port 22.
+Jan 10 11:20:30 axel sshd[1095]: Server listening on :: port 22.
+Jan 10 11:20:50 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifdown enp0s3
+Jan 10 11:20:50 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:50 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:57 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/sbin/ifup enp0s3
+Jan 10 11:20:57 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:20:57 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:20:57 axel sshd[1095]: Received SIGHUP; restarting.
+Jan 10 11:20:57 axel sshd[1095]: Server listening on 0.0.0.0 port 22.
+Jan 10 11:20:57 axel sshd[1095]: Server listening on :: port 22.
+Jan 10 11:21:15 axel sudo:     axel : TTY=tty1 ; PWD=/home/axel ; USER=root ; COMMAND=/bin/nano /var/log/auth.log
+Jan 10 11:21:15 axel sudo: pam_unix(sudo:session): session opened for user root by axel(uid=0)
+Jan 10 11:23:57 axel sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 11:24:18 axel sshd[1820]: Invalid user atec from 10.0.2.2 port 53197
+Jan 10 11:24:18 axel sshd[1820]: pam_unix(sshd:auth): check pass; user unknown
+Jan 10 11:24:18 axel sshd[1820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2
+Jan 10 11:24:20 axel sshd[1820]: Failed password for invalid user atec from 10.0.2.2 port 53197 ssh2
+Jan 10 11:24:24 axel sshd[1820]: pam_unix(sshd:auth): check pass; user unknown
+Jan 10 11:24:26 axel sshd[1820]: Failed password for invalid user atec from 10.0.2.2 port 53197 ssh2
+Jan 10 11:24:31 axel sshd[1820]: Connection closed by invalid user atec 10.0.2.2 port 53197 [preauth]
+Jan 10 11:24:31 axel sshd[1820]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2
+Jan 10 11:24:40 axel sshd[1826]: Accepted password for axel from 10.0.2.2 port 53204 ssh2
+Jan 10 11:24:40 axel sshd[1826]: pam_unix(sshd:session): session opened for user axel by (uid=0)
+Jan 10 11:24:40 axel systemd-logind[654]: New session 4 of user axel.
+Jan 10 11:24:40 axel sshd[1840]: Accepted password for axel from 10.0.2.2 port 53206 ssh2
+Jan 10 11:24:40 axel sshd[1840]: pam_unix(sshd:session): session opened for user axel by (uid=0)
+Jan 10 11:24:40 axel systemd-logind[654]: New session 5 of user axel.

@@ -1,0 +1,9 @@
+nov 28 21:29:04 axel sudo: pam_unix(sudo:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=axel
+nov 28 21:50:11 axel su[3214]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+nov 28 21:50:13 axel su[3214]: pam_authenticate: authentication failure
+nov 28 21:50:17 axel su[3215]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+nov 28 21:50:18 axel su[3215]: pam_authenticate: authentication failure
+nov 28 21:50:26 axel su[3216]: pam_unix(su:auth): authentication failure; logname=axel uid=1000 euid=0 tty=/dev/tty1 ruser=axel rhost=  user=root
+nov 28 21:50:28 axel su[3216]: pam_authenticate: authentication failure
+jan 10 11:24:18 axel sshd[1820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2
+jan 10 11:24:31 axel sshd[1820]: pam 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2

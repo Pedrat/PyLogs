@@ -1,6 +1,4 @@
-porn
 9gag
-redtube
 anime
 twitch
 trainingserver
@@ -11,5 +9,3 @@ abola
 game
 jogo
 ccna5
-google
-olastora

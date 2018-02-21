@@ -47,7 +47,6 @@ def pfanalise():
                 cprint(("Foram ao site: {}: {} vezes".format(counter2[x],counter[x])+'\n'),'yellow',attrs=['bold'])
             elif counter[x] >= 200:
                 cprint(("Foram ao site: {}: {} vezes".format(counter2[x],counter[x])+'\n'),'red',attrs=['bold'])
-
         STOP=input("Press any key to continue...")
     except:
         sys.stdout.write("Algo não correu bem.\n")

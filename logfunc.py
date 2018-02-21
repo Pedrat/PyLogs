@@ -1,5 +1,6 @@
 import os,time,sys,datetime
-listasites=["netacad","trainingserver","9gag","anime","ccna","jpeg","png","gif"]
+from termcolor import colored,cprint
+listasites=[]
 lista=[]
 listaip=[]
 counter=[]
@@ -7,10 +8,11 @@ counter2=[]
 nome="PfSenseIPLogs"+datetime.datetime.now().strftime("%d-%m-%Y")+".txt"
 
 for x in open("listaurl.txt",'r'):
-    listasites.append(x)
+    listasites.append(x.replace("\n",""))
 def read():
+    del listasites[:]
     for x in open("listaurl.txt",'r'):
-        listasites.append(x)
+        listasites.append(x.replace("\n",""))
 
 
 def pfanalise():
@@ -39,7 +41,13 @@ def pfanalise():
             counter.append(lista.count(x))
             counter2.append(x)
         for x in range(len(counter2)):
-            print("{} {}".format(counter2[x],counter[x])+'\n')
+            if counter[x] < 100:
+                cprint(("Foram ao site: {}: {} vezes".format(counter2[x],counter[x])+'\n'),'green',attrs=['bold'])
+            elif counter[x] >=100 and counter[x] < 200:
+                cprint(("Foram ao site: {}: {} vezes".format(counter2[x],counter[x])+'\n'),'yellow',attrs=['bold'])
+            elif counter[x] >= 200:
+                cprint(("Foram ao site: {}: {} vezes".format(counter2[x],counter[x])+'\n'),'red',attrs=['bold'])
+
         STOP=input("Press any key to continue...")
     except:
         sys.stdout.write("Algo não correu bem.\n")

@@ -7,9 +7,9 @@ sys.stdout.write("Este Programa ira demonstrar(em um ficheiro) quantos IP's fica
 if __name__ =="__main__":
     while 1:
         opc=input("1-IP's e Mostrar os URL's\n2-Adicionar URL's ao ficheiro\n")
-        print(logfunc.listasites)
+        #print(logfunc.listasites)
         if opc=="1":
-            #os.system("clear")
+            os.system("clear")
             logfunc.pfanalise()
         elif opc == "2":
             logfunc.update()
